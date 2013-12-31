@@ -1,0 +1,106 @@
+.container{
+	max-width: 750;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h4{
+	color:grey;
+	font-size: 95%;
+}
+
+h4 > em{
+    color: #FA3419;
+}
+
+.caption p{
+	color: grey;
+	margin: .5em 0 .5em 0;
+	font-size: .8em;
+}
+
+.btn:hover, .btn:active{
+	color: #FA3419;
+	text-decoration: none;
+}
+
+.btn{
+	color: grey;
+}
+
+#header{
+	border-width: 0 0 2;
+	border-color: #FA3419;
+	border-style: solid;
+}
+
+#main{
+	padding-top: 1em;
+	min-height: 100%-92px;
+	margin-bottom: 1em;
+}
+
+#content{
+	border-width: 0 0 0 2;
+	border-color: #FA3419;
+	border-style: solid;
+}
+
+.strip{
+	width: 100%;
+	height: auto;
+	padding-bottom: 1em;
+}
+
+.gallery{
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+#footer{
+	font-size: .6em;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+
+
+
+/*.img-wrapper{
+	position: relative;
+
+}
+.img-wrapper > img{
+	position: absolute;
+	bottom:0;
+}*/
