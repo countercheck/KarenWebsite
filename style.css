@@ -6,6 +6,11 @@ h1{
 	font-size: 2em;
 }
 
+h3{
+	font-size: 1.5em;
+	color:grey;
+}
+
 h4{
 	color:grey;
 	font-size: 95%;
@@ -15,7 +20,7 @@ h4 > em{
     color: #FA3419;
 }
 
-.caption p{
+.caption p, address{
 	color: grey;
 	margin: .5em 0 .5em 0;
 	font-size: .8em;
